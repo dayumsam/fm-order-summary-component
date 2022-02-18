@@ -41,7 +41,12 @@ body {
 
   font-family: "Red Hat Display", sans-serif;
 
-  background-size: cover;
+  background-size: contain;
+  background-color: #e0e8ff;
+
+  background-repeat: no-repeat;
+  background-position: top center;
+
   background-image: url("./images/pattern-background-mobile.svg");
 }
 
@@ -90,6 +95,7 @@ body {
 
 .card__plan {
   padding: 1.5em;
+  margin-top: 1.5em;
 
   display: flex;
   align-items: center;
